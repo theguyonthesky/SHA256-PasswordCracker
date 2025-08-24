@@ -38,6 +38,15 @@ Python – Main programming language.
 Linux (Kali) – Typical environment for running hash-cracking tools.
 
 # Files
-hash_cracker.py: The main Python script that performs the hash-cracking attack.
+`hash_cracker.py`: The main Python script that performs the hash-cracking attack.
 
-rockyou.txt: A wordlist file containing millions of commonly used passwords (You can use any .txt wordlist).
+`rockyou.txt`: A wordlist file containing millions of commonly used passwords (You can use any .txt wordlist).
+
+# How to Run
+1. Clone or download this repository
+2. Install the libraries: pip install pwntools (sys doesn't need to be installed, it's part of Python's standard library)
+3. Place your wordlist file in the same directory as the script, or update the file path in the code.
+4. Run the script using one of the following methods:
+   - Terminal (macOS/Linux): 'python3 <target_hash>'
+   - Windows (or IDEs like VS Code, PyCharm): 'python <target_hash>' or use the Run button
+
