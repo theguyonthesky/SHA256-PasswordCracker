@@ -50,3 +50,12 @@ Linux (Kali) – Typical environment for running hash-cracking tools.
    - Terminal (macOS/Linux): 'python3 <target_hash>'
    - Windows (or IDEs like VS Code, PyCharm): 'python <target_hash>' or use the Run button
 
+# Disclaimer
+This project is created for research, ethical hacking, and educational purposes only. Unauthorized access to computer systems is illegal. Always ensure you have explicit permission before testing any systems. The developer is not responsible for any misuse of this code.
+
+# Contribution and Feedback
+Contributions, feedback, and issues can be submitted via the GitHub repository. Ensure that your interactions adhere to the GitHub Community Guidelines to maintain a respectful and collaborative environment.
+
+# License
+This project is licensed under the MIT License. Feel free to use or modify it for personal use or learning.
+<br>**Stay safe and have fun! 😊**
