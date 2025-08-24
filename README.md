@@ -15,7 +15,7 @@ The SHA256-PasswordCracker is a Python-based tool that automates the process of 
 - Failure Handling: If no match is found after testing all passwords, it notifies the user.
 
 # How It Works
-1. The script first checks if exactly one argument (the target SHA-256 hash) is provided via the command line. If not, it exits with an error message.
+1. The script first checks if exactly one argument (the target SHA-256 hash) is provided via the command line using `sys.argv`. If not, it exits with an error message.
 
 2. It opens the wordlist file (default `rockyou.txt`) and reads each password line by line.
 
