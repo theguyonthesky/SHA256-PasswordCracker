@@ -31,7 +31,7 @@ The SHA256-PasswordCracker is a Python-based tool that automates the process of 
 # Tools and Technologies Used
 Python – Main programming language.
 
-`pwntools` – A powerful library for interacting with cryptographic functions, such as hashing (specifically sha256sum and sha256sumhex for this script).
+`pwntools` – Handles cryptographic funcions like hashing.
 
 `sys` – Used for argument handling.
 
