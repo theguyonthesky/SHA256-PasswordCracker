@@ -20,12 +20,9 @@ The SHA256-PasswordCracker is a Python-based tool that automates the process of 
 2. The script opens the wordlist file (default rockyou.txt) and reads each password line by line.
 
 3. Hashing and Comparison:
-
-  - For each password, it strips any trailing newline characters and encodes the password.
-  
-  - It then hashes the password using SHA-256 and compares the result (sha256sumhex) to the provided target hash.
-  
-  - If the hash matches, the script reports success, displaying the cracked password and exits.
+   - For each password, it strips any trailing newline characters and encodes the password.
+   - It then hashes the password using SHA-256 and compares the result (sha256sumhex) to the provided target hash.
+   - If the hash matches, the script reports success, displaying the cracked password and exits.
 
 4. The script keeps track of how many attempts have been made and updates the progress accordingly.
 
