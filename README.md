@@ -33,7 +33,7 @@ Python – Main programming language.
 
 `pwntools` – A powerful library for interacting with cryptographic functions, such as hashing (specifically sha256sum and sha256sumhex for this script).
 
-`sys` – Used for argument handling (sys.argv) to ensure the correct number of command-line arguments are provided.
+`sys` – Used for argument handling.
 
 Linux (Kali) – Typical environment for running hash-cracking tools.
 
