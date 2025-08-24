@@ -29,6 +29,13 @@ The SHA256-PasswordCracker is a Python-based tool that automates the process of 
 5. If the password is found, the script terminates immediately using `exit()`. If no match is found after testing all passwords, the script notifies the user of the failure.
    
 # Tools and Technologies Used
+Python – Main programming language.
+
+`pwntools` – A powerful library for interacting with cryptographic functions, such as hashing (specifically sha256sum and sha256sumhex for this script).
+
+`sys` – Used for argument handling (sys.argv) to ensure the correct number of command-line arguments are provided.
+
+Linux (Kali) – Typical environment for running hash-cracking tools.
 
 # Files
 hash_cracker.py: The main Python script that performs the hash-cracking attack.
