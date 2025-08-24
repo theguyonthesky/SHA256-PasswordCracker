@@ -12,3 +12,12 @@ The SHA256-PasswordCracker is a Python-based tool that automates the process of 
 - Progress Reporting: Displays real-time progress during the cracking process.
 - Success Detection: If the correct password is found, the script reports the success and stops further attempts.
 - Failure Handling: If no match is found after testing all passwords, it notifies the user.
+
+# How It Works
+
+# Tools and Technologies Used
+
+# Files
+hash_cracker.py: The main Python script that performs the hash-cracking attack.
+
+rockyou.txt: A wordlist file containing millions of commonly used passwords (You can use any .txt wordlist).
