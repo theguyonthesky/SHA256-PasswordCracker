@@ -47,8 +47,8 @@ Linux (Kali) – Typical environment for running hash-cracking tools.
 2. Install the libraries: pip install pwntools (sys doesn't need to be installed, it's part of Python's standard library)
 3. Place your wordlist file in the same directory as the script, or update the file path in the code.
 4. Run the script using one of the following methods:
-   - Terminal (macOS/Linux): 'python3 <target_hash>'
-   - Windows (or IDEs like VS Code, PyCharm): 'python <target_hash>' or use the Run button
+   - Terminal (macOS/Linux): 'python3 hash_cracker.py <target_hash>'
+   - Windows (or IDEs like VS Code, PyCharm): 'python hash_cracker.py <target_hash>' or use the Run button
 
 # Disclaimer
 This project is created for research, ethical hacking, and educational purposes only. Unauthorized access to computer systems is illegal. Always ensure you have explicit permission before testing any systems. The developer is not responsible for any misuse of this code.
